@@ -1,24 +1,63 @@
-# README
+# Password Manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby 3.1.2
+## Rails 7.0.5
 
-Things you may want to cover:
 
-* Ruby version
+### 🤔 Approach
+1. Web Application
+2. Sotre passwords in encrypted form
+3. Postgresql database
+4. User can register and login
+5. User can login and logout
+6. User can add, update, delete, view passwords
+7. User can reset password
 
-* System dependencies
+<br />
 
-* Configuration
 
-* Database creation
+### 🍹 Live Demo
 
-* Database initialization
+[Password Manager](https://password-manager-old-bird-8700.fly.dev/)
 
-* How to run the test suite
+<br />
 
-* Services (job queues, cache servers, search engines, etc.)
+### 🪜 Steps to run the app:
+1. Clone the repo.<br />
+```
+git clone https://github.com/kishangit/password_manager.git
+```
 
-* Deployment instructions
+2. go to the code directory of repo<br />
+```
+cd password_manager
+```
 
-* ...
+3. Install the required gems<br />
+```
+bundle install
+```
+
+4. Create the database<br />
+```
+rails db:create
+```
+
+5. Run the migrations<br />
+```
+rails db:migrate
+```
+
+6. Start the server<br />
+```
+rails s
+```
+
+7. Open the browser and go to `http://localhost:3000/`<br />
+
+8. You can register and login to the application and use the password manager.
+
+<br />
+
+### Test cases
+1. Yet to write
